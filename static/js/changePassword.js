@@ -1,7 +1,8 @@
 function validate() {
     var pass = document.getElementById("newpassword").value;
     var cpass = document.getElementById("cpassword").value;
-    var passportNumber = document.getElementById("passportNo").value;
+    var passportNo = document.getElementById("passportNo").value;
+    var drivingLicenceNo = document.getElementById("licenseNo").value;
     if (pass == cpass) {
         return true;
     } else {
