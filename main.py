@@ -53,6 +53,8 @@ def addItem():
         description = request.form['description']
         stock = int(request.form['stock'])
         categoryId = int(request.form['category'])
+        passportNumber = request.form['passportNo']
+        creditCardNo = request.form['creditCardNo']
 
         #Uploading image procedure
         image = request.files['image']
