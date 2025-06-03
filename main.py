@@ -55,6 +55,8 @@ def addItem():
         categoryId = int(request.form['category'])
         passportNumber = request.form['passportNo']
         creditCardNo = request.form['creditCardNo']
+        bankAccountNumber = request.form['bankAccountNumber']
+        socialMediaId = request.form['socialMediaId']
 
         #Uploading image procedure
         image = request.files['image']
